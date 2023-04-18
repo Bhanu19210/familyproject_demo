@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/login.css">
+    <link rel="icon" href="../images/family-logo.jpg">
+   
+
+    <!-- <script src="./js/form.js"></script> -->
+
+    <title>Login</title>
+</head>
+<body>
+    <div class="container">
+       <div class="top_logo">
+            <img src="./images/family-logo.jpg" alt="logo">
+            <h1>Our Family</h1>
+       </div>
+       <div class="form_content">
+        <form id="form"  onsubmit="return validate()" action="home_page.html" autocomplete="off" method="get">
+            <div class="input-control">
+                <label for="username">User Name</label>
+                <input type="text" id="username" placeholder="username" name="username">
+                <div class="error"></div>
+            </div>
+
+            <div class="input-control">
+                <label for="password">Password</label>
+                <input type="password" id="password" placeholder="password" name="password">
+                <div class="error"></div>
+            </div>
+
+         
+           
+
+            <button type="submit">Login</button>
+        </form>
+       </div>
+    </div>
+    <script src="./js/form.js"></script>
+    
+</body>
+</html>
